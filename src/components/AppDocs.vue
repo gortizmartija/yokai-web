@@ -24,11 +24,8 @@ const { t } = useI18n();
         <section>
           <h3 class="text-2xl font-semibold text-text mb-5">• {{ t("documentation.baseUrl") }}</h3>
           <div class="group relative">
-            <div
-              class="absolute -inset-1 bg-linear-to-r from-accent/20 to-primary/20 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"
-            ></div>
             <pre
-              class="relative bg-secondary/30 border border-white/10 p-5 rounded-xl text-accent font-mono text-sm shadow-2xl overflow-x-auto custom-scrollbar"
+              class="relative bg-secondary/30 border border-white/10 p-5 rounded-xl text-accent font-mono text-sm shadow-2xl"
             >
 https://yokai-api-nu.vercel.app/</pre
             >
@@ -115,13 +112,13 @@ https://yokai-api-nu.vercel.app/</pre
   <span class="text-accent">"portrait_path"</span>: <span class="text-text/80">"https://raw.githubusercontent.com/.../kappa.jpg"</span>,
   <span class="text-accent">"thumbnails_path"</span>: <span class="text-text/80">"https://raw.githubusercontent.com/.../kappa.jpg"</span>,
   <span class="text-accent">"webp_path"</span>: <span class="text-text/80">"https://raw.githubusercontent.com/.../kappa.webp"</span>,
-  <span class="text-accent">"translation"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.translation")}}"</span>,
+  <span class="text-accent">"translation"</span>: <span class="text-text/80">{{t("documentation.kappaExample.translation")}}</span>,
   <span class="text-accent">"alternate_names"</span>: <span class="text-text/80">"kawatarō, kawako"</span>,
-  <span class="text-accent">"habitat"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.habitat")}}"</span>,
-  <span class="text-accent">"diet"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.diet")}}"</span>,
-  <span class="text-accent">"apparence"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.apparence")}}"</span>,
-  <span class="text-accent">"behavior"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.behavior")}}"</span>,
-  <span class="text-accent">"interactions"</span>: <span class="text-text/80">"{{t("documentation.kappaExample.interactions")}}"</span>
+  <span class="text-accent">"habitat"</span>: <span class="text-text/80">{{t("documentation.kappaExample.habitat")}}</span>,
+  <span class="text-accent">"diet"</span>: <span class="text-text/80">{{t("documentation.kappaExample.diet")}}</span>,
+  <span class="text-accent">"apparence"</span>: <span class="text-text/80">{{t("documentation.kappaExample.apparence")}}</span>,
+  <span class="text-accent">"behavior"</span>: <span class="text-text/80">{{t("documentation.kappaExample.behavior")}}</span>,
+  <span class="text-accent">"interactions"</span>: <span class="text-text/80">{{t("documentation.kappaExample.interactions")}}</span>
 <span class="text-primary">}</span>
 </pre>
             </div>

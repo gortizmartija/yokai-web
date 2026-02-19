@@ -90,7 +90,7 @@ async function fetchYokais() {
 
     const response = await fetch(getUrl());
     const data = await response.json();
-    yokais.value = data;
+    yokais.value = data.slice(0, 12); // GEt only the first 12
   } catch (error) {
     console.error("Error fetching yokais:", error);
   }

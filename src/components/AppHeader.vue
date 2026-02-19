@@ -16,7 +16,7 @@ function changeLanguage(event: Event) {
 
 <template>
   <header
-    class="flex items-center justify-between py-4 px-8 lg:px-14 sticky top-0 z-50 bg-background/80 backdrop-blur-sm"
+    class="flex items-center justify-between py-4 px-4 sm:px-8 lg:px-14 sticky top-0 z-50 bg-background/80 backdrop-blur-sm"
   >
     <a href="#"><img src="../assets/logo.png" alt="Yokai Logo" class="w-20 -my-4" /></a>
     <nav>
