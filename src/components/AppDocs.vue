@@ -7,11 +7,11 @@ const { t } = useI18n();
 <template>
   <section
     id="Documentation"
-    class="max-w-2xl lg:max-w-6xl mx-auto mt-24 max-lg:px-8bg-background relative overflow-hidden max-lg:px-8"
+    class="max-w-2xl lg:max-w-6xl mx-auto mt-4 sm:mt-8 max-lg:px-8bg-background relative overflow-hidden max-lg:px-8"
   >
-    <div class="absolute -top-24 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+    <div class="absolute -top-12 h-96 bg-primary/5 rounded-full blur-3xl"></div>
 
-    <div class="text-center relative z-10 mt-8">
+    <div class="text-center relative z-10 mt-24">
       <h2 class="text-3xl font-bold mb-4">{{ t("documentation.title") }}</h2>
       <div class="w-24 h-1 bg-accent mx-auto mb-6 rounded-full opacity-50"></div>
       <p class="text-text/80 max-w-2xl mx-auto text-pretty leading-relaxed">
@@ -25,7 +25,7 @@ const { t } = useI18n();
           <h3 class="text-2xl font-semibold text-text mb-5">• {{ t("documentation.baseUrl") }}</h3>
           <div class="group relative">
             <pre
-              class="relative bg-secondary/30 border border-white/10 p-5 rounded-xl text-accent font-mono text-sm shadow-2xl"
+              class="relative bg-secondary/30 border border-white/10 p-5 rounded-xl text-accent font-mono text-sm shadow-2xl overflow-x-auto custom-scrollbar"
             >
 https://yokai-api-nu.vercel.app/</pre
             >

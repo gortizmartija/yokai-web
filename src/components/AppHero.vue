@@ -12,10 +12,10 @@ const { t } = useI18n();
       class="absolute inset-0 w-full h-full object-cover opacity-15"
     />
     <div class="z-10 flex items-center justify-center text-center flex-col px-4 absolute">
-      <h1 class="text-5xl font-extrabold mb-4 text-text">
+      <h1 class="text-4xl sm:text-5xl font-extrabold mb-4 text-text">
         {{ t("hero.title") }} <span class="text-accent">{{ t("hero.subtitle") }}</span>
       </h1>
-      <p class="text-xl mb-8 text-text/80 max-w-lg">
+      <p class="text-md sm:text-xl mb-8 text-text/80 max-w-lg">
         {{ t("hero.description") }}
       </p>
       <div class="flex items-center gap-5">

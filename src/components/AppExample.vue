@@ -1,6 +1,6 @@
 <template>
-  <section id="Example" class="min-h-screen p-8">
-    <header class="mt-8 mb-12 text-center">
+  <section id="Example" class="min-h-screen px-8 pt-4 sm:pt-8">
+    <header class="mb-12 text-center mt-12">
       <h2 class="text-3xl font-extrabold mb-4">{{ t("example.title") }}</h2>
       <div class="w-24 h-1 bg-accent mx-auto mb-6 rounded-full opacity-50"></div>
 

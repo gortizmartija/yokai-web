@@ -23,24 +23,24 @@ function changeLanguage(event: Event) {
       <ul class="flex space-x-4 items-center">
         <div class="flex gap-2">
           <li>
-            <a href="#Documentation">{{ t("nav.docs") }}</a>
+            <a href="#Documentation" class="max-sm:text-sm">{{ t("nav.docs") }}</a>
           </li>
           <li>
-            <a href="#Example">{{ t("nav.example") }}</a>
+            <a href="#Example" class="max-sm:text-sm">{{ t("nav.example") }}</a>
           </li>
         </div>
         <div class="flex gap-2">
           <li
-            class="relative border rounded-full aspect-square max-w-10 flex items-center justify-center overflow-hidden group"
+            class="relative border rounded-full aspect-square max-w-8 sm:max-w-10 flex items-center justify-center overflow-hidden group"
           >
             <img
               src="../assets/globe.svg"
               alt="Language"
-              class="w-full h-full p-2.5 group-hover:scale-110 transition-transform duration-200"
+              class="w-full h-full p-2 sm:p-2.5 group-hover:scale-110 transition-transform duration-200"
             />
 
             <select
-              class="absolute inset-0 w-full h-full opacity-0 cursor-pointer appearance-none bg-transparent p-2"
+              class="absolute inset-0 w-full h-full opacity-0 cursor-pointer appearance-none bg-transparent p-1 sm:p-2"
               :title="t('nav.language')"
               :value="locale"
               @change="changeLanguage"
@@ -49,7 +49,7 @@ function changeLanguage(event: Event) {
               <option value="es" class="bg-[#1a1a1a] text-white">ES</option>
             </select>
           </li>
-          <li class="border rounded-full aspect-square max-w-10 overflow-hidden">
+          <li class="border rounded-full aspect-square max-w-8 sm:max-w-10 overflow-hidden">
             <a
               href="https://github.com/gortizmartija/yokai-api"
               target="_blank"
