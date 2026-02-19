@@ -1,47 +1,66 @@
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+</script>
+
 <template>
-  <div class="mt-16">
+  <section class="max-w-2xl lg:max-w-6xl mx-auto mt-16 max-lg:px-8">
     <div class="text-center">
-      <h2 class="text-2xl font-bold mb-4">API Overview</h2>
-      <p class="text-gray-300 max-w-2xl mx-auto text-pretty">
-        This is the overview section of the application. Here you can find a summary of the main
-        features and functionalities.
+      <h2 class="text-3xl font-bold mb-4">{{ t("overview.title") }}</h2>
+      <div class="w-24 h-1 bg-accent mx-auto mb-6 rounded-full opacity-50"></div>
+      <p class="text-text/80 max-w-2xl mx-auto text-pretty leading-relaxed">
+        {{ t("overview.description") }}
       </p>
     </div>
-    <div class="flex justify-center gap-5 mt-8">
-      <div class="relative drop-shadow-xl w-88 h-54 overflow-hidden rounded-xl bg-[#3d3c3d]">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
+      <div class="relative group overflow-hidden rounded-xl bg-[#3d3c3d] p-[1.5px] drop-shadow-xl">
         <div
-          class="absolute flex flex-col p-10 text-white z-10 opacity-90 rounded-xl inset-0.5 bg-[#242527]"
+          class="absolute w-56 h-48 bg-text/20 blur-[60px] -left-20 -top-20 z-0 pointer-events-none transition-transform duration-500 group-hover:scale-110"
+        ></div>
+
+        <div
+          class="relative h-full flex flex-col p-10 z-10 rounded-[calc(0.75rem-1.5px)] bg-background"
         >
-          <h1 class="text-2xl font-bold">Yokais</h1>
-          <p class="mt-2 text-pretty">
-            Get information in a big database of the most famous japanese ghosts in the world.
+          <img src="../assets/panda.svg" alt="Yokai Icon" class="w-10 h-10 mb-4" />
+          <h2 class="text-2xl font-bold">{{ t("overview.yokais.title") }}</h2>
+          <p class="mt-4 text-text/80 text-pretty leading-relaxed">
+            {{ t("overview.yokais.description") }}
           </p>
         </div>
-        <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
       </div>
-      <div class="relative drop-shadow-xl w-88 h-54 overflow-hidden rounded-xl bg-[#3d3c3d]">
+
+      <div class="relative group overflow-hidden rounded-xl bg-[#3d3c3d] p-[1.5px] drop-shadow-xl">
         <div
-          class="absolute flex flex-col p-10 text-white z-10 opacity-90 rounded-xl inset-0.5 bg-[#242527]"
+          class="absolute w-56 h-48 bg-text/20 blur-[60px] -left-20 -top-20 z-0 pointer-events-none transition-transform duration-500 group-hover:scale-110"
+        ></div>
+
+        <div
+          class="relative h-full flex flex-col p-10 z-10 rounded-[calc(0.75rem-1.5px)] bg-background"
         >
-          <h1 class="text-2xl font-bold">Multi Language</h1>
-          <p class="mt-2 text-pretty">
-            The API supports multiple languages, allowing you to access data in various languages
-            for a better experience.
+          <img src="../assets/book-a.svg" alt="Yokai Icon" class="w-10 h-10 mb-4" />
+          <h2 class="text-2xl font-bold">{{ t("overview.multiLanguage.title") }}</h2>
+          <p class="mt-4 text-text/80 text-pretty leading-relaxed">
+            {{ t("overview.multiLanguage.description") }}
           </p>
         </div>
-        <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
       </div>
-      <div class="relative drop-shadow-xl w-88 h-54 overflow-hidden rounded-xl bg-[#3d3c3d]">
+
+      <div class="relative group overflow-hidden rounded-xl bg-[#3d3c3d] p-[1.5px] drop-shadow-xl">
         <div
-          class="absolute flex flex-col p-10 text-white z-10 opacity-90 rounded-xl inset-0.5 bg-[#242527]"
+          class="absolute w-56 h-48 bg-text/20 blur-[60px] -left-20 -top-20 z-0 pointer-events-none transition-transform duration-500 group-hover:scale-110"
+        ></div>
+
+        <div
+          class="relative h-full flex flex-col p-10 z-10 rounded-[calc(0.75rem-1.5px)] bg-background"
         >
-          <h1 class="text-2xl font-bold">Open Source</h1>
-          <p class="mt-2 text-pretty">
-            The API is open source, allowing developers to contribute and improve the project.
+          <img src="../assets/lock-open.svg" alt="Yokai Icon" class="w-10 h-10 mb-4" />
+          <h2 class="text-2xl font-bold">{{ t("overview.openSource.title") }}</h2>
+          <p class="mt-4 text-text/80 text-pretty leading-relaxed">
+            {{ t("overview.openSource.description") }}
           </p>
         </div>
-        <div class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"></div>
       </div>
     </div>
-  </div>
+  </section>
 </template>

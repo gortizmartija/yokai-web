@@ -5,13 +5,22 @@
   font-weight: normal;
 }
 
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-background: var(--color-background);
+  --color-text: var(--color-text);
+}
+
 :root {
-  --color-primary: #4f46e5;
-  --color-secondary: #9333ea;
-  --color-accent: #f43f5e;
-  --color-background: #242527;
-  --color-text: #f9fafb;
+  --color-primary: #9d2933;
+  --color-secondary: #16354d;
+  --color-accent: #d4af37;
+  --color-background: #121212;
+  --color-text: #e0d8c0;
 
   background-color: var(--color-background);
   color: var(--color-text);
+  scroll-behavior: smooth;
 }

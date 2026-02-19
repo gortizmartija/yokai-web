@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "docs": "Docs",
+    "example": "Example",
+    "language": "Change language"
+  },
+  "hero": {
+    "title": "Welcome to",
+    "subtitle": "Yokai API",
+    "description": "Your gateway to the mystical world of Japanese folklore and spirits.",
+    "getStarted": "Get Started",
+    "viewApi": "View API"
+  },
+  "overview": {
+    "title": "API Overview",
+    "description": "This is the overview section of the application. Here you can find a summary of the main features and functionalities.",
+    "yokais": {
+      "title": "Yokais",
+      "description": "Get information in a big database of the most famous japanese ghosts in the world."
+    },
+    "multiLanguage": {
+      "title": "Multi Language",
+      "description": "The API supports multiple languages, allowing you to access data in various languages for a better experience."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "The API is open source, allowing developers to contribute and improve the project."
+    }
+  },
+  "documentation": {
+    "title": "Documentation",
+    "description": "Dive into the comprehensive documentation of the Yokai API. Explore endpoints, data structures, and usage examples to seamlessly integrate the mystical world of Japanese folklore into your applications.",
+    "baseUrl": "Base URL",
+    "availableEndpoints": "Available Endpoints",
+    "endpoints": {
+      "allYokais": "Returns a complete list of all spirits, ghosts, and entities in the database.",
+      "language": "en",
+      "singleYokai": "Retrieves the full detailed scroll of a specific Yokai using its numeric ID."
+    },
+    "supportedLanguages": "Supported Languages",
+    "english": "English (/en)",
+    "spanish": "Spanish (/es)",
+    "liveExample": "Live Example Response",
+    "kappaExample": {
+      "language": "en",
+      "translation": "River child",
+      "habitat": "rivers, lakes, ponds, waterways, cisterns, wells; found throughout Japan",
+      "diet": "omnivorous; prefers cucumbers and human entrails",
+      "apparence": "Kappa are aquatic, reptilian humanoids who inhabit the rivers and streams flowing over Japan. Clumsy on land, they are at home in the water, and thrive during the warm months. Kappa are generally the size and shape of a human child, yet despite their small stature they are physically stronger than a grown man. Their scaly skin ranges from a deep, earthy green to bright reds and even blue. Kappa bodies are built for swimming; they have webbed, thumbless hands and feet, a turtle-like beak and shell, and an elastic, waterproof skin that reeks of fish and is said to be removable. Other inhuman traits include three anuses that allow them to pass three times as much gas as humans, and forearms attached to one another inside of their shells—pulling on one arm lengthens it while the other arm contracts. But their most distinguishing characteristic is a dish-like depression that lies on top of their skulls. This dish is the source of a kappa’s power and must be kept filled with water at all times. Should the water be spilled and the dish dry up, the kappa will be unable to move. It may even die.",
+      "behavior": "While younger kappa are frequently found in family groups, adult kappa live solitary lives. However, it is common for kappa to befriend other yōkai and sometimes even people. Possessed of a keen intelligence, kappa are one of the few yōkai able to learn human languages. They are highly knowledgeable about medicine and the art of setting bones. According to legend, friendly kappa taught these skills to humans. For fun, they love causing mischief, practicing martial arts like sumo wrestling, and playing games of skill like shogi. Kappa are proud and stubborn, but also fiercely honorable; they never break a promise. Kappa will eat almost anything, but they are particularly fond of two foods: cucumbers and raw innards—particularly human anuses.",
+      "interactions": "Kappa are revered in Shinto as a kind of water god. It is not uncommon to see offerings of cucumbers made at riverbanks by devout humans. In return, kappa help people by irrigating fields, befriending lonely children, or competing with adults in sports and games.Kappa can also be crass and dangerous. Lakes and rivers where they live are often marked with warning signs. Kappa particularly despise cows and horses, and will attack the animals for no reason at all. Mischievous by nature, they loudly pass gas in public and love to peek up women’s kimonos. Sometimes their mischief turns violent. Kappa have been known to kidnap or rape swimming women, and kill people. A kappa’s preferred method of attack is to drown its victims, or bite them to death under water. Kappa also devour humans alive. Usually they go for the rear end to get at the shirikodama, a mythical ball of flesh located just inside the anus.In the water, there is no escape for anyone who crosses a kappa. On land, however, it is possible to outwit one; the honorable kappa will feel obliged to return a bow. If it can be tricked into bowing so low that the water in its dish spills out, it can be overcome. Once bested, kappa have been made to swear loyalty and friendship to their victor for the rest of their lives."
+    },
+    "note": "'Every Yokai has a story. Use the portrait_path to visualize them in your UI.'"
+  },
+  "example": {
+    "title": "Yokai Encyclopedia",
+    "description": "Explore the mystical world of Japanese folklore. This collection is fetched directly from the",
+    "yokaiApi": "Yokai API",
+    "subtitle": ", featuring spirits, ghosts, and entities.",
+    "language": "en",
+    "summoning": "Summoning spirits..."
+  }
+}

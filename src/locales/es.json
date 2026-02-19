@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "docs": "Docs",
+    "example": "Ejemplo",
+    "language": "Cambiar idioma"
+  },
+  "hero": {
+    "title": "Bienvenido a",
+    "subtitle": "Yokai API",
+    "description": "Tu puerta de entrada al mundo místico del folclore japonés y los espíritus.",
+    "getStarted": "Comenzar",
+    "viewApi": "Ver API"
+  },
+  "overview": {
+    "title": "Descripción de la API",
+    "description": "Esta es la sección de descripción general de la aplicación. Aquí puedes encontrar un resumen de las características y funcionalidades principales.",
+    "yokais": {
+      "title": "Yokais",
+      "description": "Obtén información de una amplia base de datos de los fantasmas japoneses más famosos del mundo."
+    },
+    "multiLanguage": {
+      "title": "Múltiples Idiomas",
+      "description": "La API soporta varios idiomas, permitiéndote acceder a datos en diversos idiomas para una mejor experiencia."
+    },
+    "openSource": {
+      "title": "Código Abierto",
+      "description": "La API es de código abierto, lo que permite a los desarrolladores contribuir y mejorar el proyecto."
+    }
+  },
+  "documentation": {
+    "title": "Documentación",
+    "description": "Sumérgete en la documentación completa de la Yokai API. Explora endpoints, estructuras de datos y ejemplos de uso para integrar sin problemas el mundo místico del folclore japonés en tus aplicaciones.",
+    "baseUrl": "URL Base",
+    "availableEndpoints": "Endpoints Disponibles",
+    "endpoints": {
+      "allYokais": "Devuelve una lista completa de todos los espíritus, fantasmas y entidades en la base de datos.",
+      "language": "es",
+      "singleYokai": "Recupera el pergamino detallado completo de un Yokai específico usando su ID numérico."
+    },
+    "supportedLanguages": "Idiomas Soportados",
+    "english": "Inglés (/en)",
+    "spanish": "Español (/es)",
+    "liveExample": "Respuesta de Ejemplo en Vivo",
+    "kappaExample": {
+      "language": "es",
+      "translation": "Niño del río",
+      "habitat": "ríos, lagos, estanques, cursos de agua, cisternas, pozos; se encuentran en todo Japón.",
+      "diet": "omnívoro; prefiere los pepinos y las vísceras humanas.",
+      "apparence": "Los kappa son humanoides acuáticos reptilianos que habitan los ríos y arroyos que fluyen por Japón. Torpes en tierra firme, se sienten como en casa en el agua y prosperan durante los meses cálidos. Los kappa suelen tener el tamaño y la forma de un niño humano, pero a pesar de su pequeña estatura son físicamente más fuertes que un hombre adulto. Su piel escamosa varía desde un verde intenso y terroso hasta rojos brillantes e incluso azules. Los cuerpos de los kappa están hechos para nadar; tienen manos y pies palmeados y sin pulgares, un pico y un caparazón similares a los de una tortuga, y una piel elástica e impermeable que huele a pescado y que, según se dice, es extraíble. Otras características inhumanas son los tres anos que les permiten expulsar tres veces más gases que los humanos y los antebrazos unidos entre sí dentro de sus caparazones, de modo que al tirar de un brazo se alarga, mientras que el otro se contrae. Pero su característica más distintiva es una depresión en forma de plato que se encuentra en la parte superior de sus cráneos. Este plato es la fuente del poder de los kappa y debe mantenerse lleno de agua en todo momento. Si se derrama el agua y el plato se seca, el kappa no podrá moverse. Incluso puede morir.",
+      "behavior": "Mientras que los kappa más jóvenes suelen vivir en grupos familiares, los adultos llevan una vida solitaria. Sin embargo, es habitual que los kappa se hagan amigos de otros yōkai y, a veces, incluso de personas. Dotados de una gran inteligencia, los kappa son uno de los pocos yōkai capaces de aprender idiomas humanos. Tienen amplios conocimientos sobre medicina y el arte de curar fracturas. Según la leyenda, los kappa amistosos enseñaron estas habilidades a los humanos. Para divertirse, les encanta hacer travesuras, practicar artes marciales como la lucha de sumo y jugar a juegos de habilidad como el shogi. Los kappa son orgullosos y testarudos, pero también muy honorables; nunca rompen una promesa. Los kappa comen casi cualquier cosa, pero les gustan especialmente dos alimentos: los pepinos y las vísceras crudas, en particular los anos humanos.",
+      "interactions": "Los kappa son venerados en el sintoísmo como una especie de dioses del agua. No es raro ver ofrendas de pepinos en las orillas de los ríos por parte de personas devotas. A cambio, los kappa ayudan a las personas regando los campos, haciéndose amigos de los niños solitarios o compitiendo con los adultos en deportes y juegos.Los kappa también pueden ser groseros y peligrosos. Los lagos y ríos donde viven suelen estar señalizados con carteles de advertencia. Los kappa desprecian especialmente a las vacas y los caballos, y atacan a estos animales sin motivo alguno. De naturaleza traviesa, se tiran pedos ruidosamente en público y les encanta mirar debajo de los kimonos de las mujeres. A veces, sus travesuras se vuelven violentas. Se sabe que los kappa secuestran o violan a mujeres que se bañan y matan a personas. El método de ataque preferido de un kappa es ahogar a sus víctimas o morderlas hasta matarlas bajo el agua. Los kappa también devoran a los humanos vivos. Por lo general, van a por la parte trasera para llegar al shirikodama, una bola mítica de carne situada justo dentro del ano.En el agua, no hay escapatoria para cualquiera que se cruce con un kappa. Sin embargo, en tierra firme es posible burlarlos; los kappa honorables se sentirán obligados a devolver una reverencia. Si se les engaña para que se inclinen tanto que se derrame el agua de su plato, se les puede vencer. Una vez derrotados, los kappa han sido obligados a jurar lealtad y amistad a su vencedor por el resto de sus vidas."
+    },
+    "note": "'Todos los Yokai tienen una historia. Usa el portrait_path para visualizarlos en tu UI.'"
+  },
+  "example": {
+    "title": "Enciclopedia de Yokais",
+    "description": "Explora el mundo místico del folclore japonés. Esta colección se obtiene directamente de la",
+    "yokaiApi": "Yokai API",
+    "subtitle": ", presentando espíritus, fantasmas y entidades.",
+    "language": "es",
+    "summoning": "Invocando espíritus..."
+  }
+}
