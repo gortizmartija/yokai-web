@@ -38,8 +38,8 @@
       "singleYokai": "Retrieves the full detailed scroll of a specific Yokai using its numeric ID."
     },
     "supportedLanguages": "Supported Languages",
-    "english": "English (/en)",
-    "spanish": "Spanish (/es)",
+    "english": "English: /en",
+    "spanish": "Spanish: /es",
     "liveExample": "Live Example Response",
     "kappaExample": {
       "language": "en",

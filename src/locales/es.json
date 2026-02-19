@@ -38,8 +38,8 @@
       "singleYokai": "Recupera el pergamino detallado completo de un Yokai específico usando su ID numérico."
     },
     "supportedLanguages": "Idiomas Soportados",
-    "english": "Inglés (/en)",
-    "spanish": "Español (/es)",
+    "english": "Inglés: /en",
+    "spanish": "Español: /es",
     "liveExample": "Respuesta de Ejemplo en Vivo",
     "kappaExample": {
       "language": "es",
